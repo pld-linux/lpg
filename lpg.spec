@@ -5,13 +5,13 @@ Summary(pl):	Podrêcznik Programisty LDP
 Summary(tr):	LDP Programcý kýlavuzu
 Name:		lpg
 Version:	0.4
-Release:	3
+Release:	4
 Group:		Documentation
 Group(pl):	Dokumentacja
 Source:		http://sunsite.unc.edu/LDP/lpg-0.4.html.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
-Buildroot:	/tmp/buildroot-%{name}-%{version}
+Buildroot:	/tmp/%{name}-%{version}-root
 
 %description
 This is a generic guide to the Programming on Linux systems.
@@ -57,10 +57,14 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644, root, root, 755)
 
-%dir /usr/doc/LDP/lpg
-/usr/doc/LDP/lpg/*
+/usr/doc/LDP/lpg
 
 %changelog
+* Mon Feb  8 1999 Micha³ Kuratczyk <kurkens@polbox.com>
+  [0.4-4]
+- sloted BuildRoot into PLD standard
+- simplification in %files
+
 * Sat Feb  6 1999 Micha³ Kuratczyk <kurkens@polbox.com>
   [0.4-3]
 - added pl translations
