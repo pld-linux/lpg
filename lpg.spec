@@ -26,9 +26,9 @@ cette version.
 
 %description -l de
 Dies ist eine allgemeine Einführung in die Programmierung auf
-Linux-Systemen. Unter der Adresse http://www.linuxdoc.org/ finden
-Sie weitere Infos zum Linux-Dokumentationsprojekt und eventuelle
-Updates zu dieser Version.
+Linux-Systemen. Unter der Adresse http://www.linuxdoc.org/ finden Sie
+weitere Infos zum Linux-Dokumentationsprojekt und eventuelle Updates
+zu dieser Version.
 
 %description -l pl
 To jest ogólny przewodnik do programowania w systemie Linux. Wiêcej
