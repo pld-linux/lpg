@@ -18,18 +18,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a generic guide to the Programming on Linux systems. Check
-http://sunsite.unc.edu/LDP/ for more information about the Linux
+http://www.linuxdoc.org/ for more information about the Linux
 Documentation Project, and possible updates to this version.
 
 %description -l fr
 Ceci est un guide générique à la programmation sur les systèmes Linux.
-Allez sur http://sunsite.unc.edu/LDP/ pour plus d'informations sur le
+Allez sur http://www.linuxdoc.org/ pour plus d'informations sur le
 Projet de Documentation Linux (LDP) et les mises à jour éventuelles de
 cette version.
 
 %description -l de
 Dies ist eine allgemeine Einführung in die Programmierung auf
-Linux-Systemen. Unter der Adresse http://sunsite.unc.edu/LDP/ finden
+Linux-Systemen. Unter der Adresse http://www.linuxdoc.org/ finden
 Sie weitere Infos zum Linux-Dokumentationsprojekt und eventuelle
 Updates zu dieser Version.
 
@@ -37,12 +37,12 @@ Updates zu dieser Version.
 To jest ogólny przewodnik do programowania w systemie Linux. Wiêcej
 informacji na temat Projektu Dokumentacji Linuxa (LDP) oraz
 uaktualnienia tego dokumentu mo¿esz znale¼æ pod adresem
-http://sunsite.unc.edu/LDP/ .
+http://www.linuxdoc.org/ .
 
 %description -l tr
 Linux sistemleri için programlama kýlavuzu. Linux Belgeleme Projesi
 (Linux Documentation Project) ile ilgili daha fazla bilgi ve yeni
-sürümler için http://sunsite.unc.edu/LDP/ adresine bakýn.
+sürümler için http://www.linuxdoc.org/ adresine bakýn.
 
 %prep
 %setup -q -n lpg
