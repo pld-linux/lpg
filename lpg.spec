@@ -11,7 +11,8 @@ Group:		Documentation
 Group(de):	Dokumentation
 Group(es):	Documentación
 Group(pl):	Dokumentacja
-Source0:	http://sunsite.unc.edu/LDP/%{name}-%{version}.html.tar.gz
+Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
+URL:		http://www.linuxdoc.org/LDP/lpg/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
