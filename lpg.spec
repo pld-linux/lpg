@@ -8,9 +8,6 @@ Version:	0.4
 Release:	4
 License:	distributable
 Group:		Documentation
-Group(de):	Dokumentation
-Group(es):	Documentación
-Group(pl):	Dokumentacja
 Source0:	http://www.linuxdoc.org/LDP/%{name}-%{version}.html.tar.gz
 URL:		http://www.linuxdoc.org/LDP/lpg/
 BuildArch:	noarch
