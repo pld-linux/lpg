@@ -58,25 +58,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 
 /usr/doc/LDP/lpg
-
-%changelog
-* Mon Feb  8 1999 Micha³ Kuratczyk <kurkens@polbox.com>
-  [0.4-4]
-- sloted BuildRoot into PLD standard
-- simplification in %files
-
-* Sat Feb  6 1999 Micha³ Kuratczyk <kurkens@polbox.com>
-  [0.4-3]
-- added pl translations
-- replaced "mkdir -p" with "install -d"
-- rewrote %files section
-- changed BuildRoot
-- simplification in %install
-- moved %changelog to the end of spec
-- cosmetic changes
-
-* Mon Apr 27 1998 Prospector System <bugs@redhat.com>
-- translations modified for de, fr, tr
-
-* Fri Oct 24 1997 Otto Hammersmith <otto@redhat.com>
-- created the package
