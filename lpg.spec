@@ -76,10 +76,3 @@ rm -rf $RPM_BUILD_ROOT
 
 * Fri Oct 24 1997 Otto Hammersmith <otto@redhat.com>
 - created the package
-
-
-* Mon Apr 27 1998 Prospector System <bugs@redhat.com>
-- translations modified for de, fr, tr
-
-* Fri Oct 24 1997 Otto Hammersmith <otto@redhat.com>
-- created the package
