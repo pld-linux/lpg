@@ -47,9 +47,9 @@ http://sunsite.unc.edu/LDP adresine bakýn.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/doc/LDP/lpg
+install -d $RPM_BUILD_ROOT%{_docdir}/LDP/lpg
 
-cp -ar * $RPM_BUILD_ROOT/usr/doc/LDP/lpg
+cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/lpg
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -57,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 
-/usr/doc/LDP/lpg
+%{_docdir}/LDP/lpg
