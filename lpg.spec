@@ -1,8 +1,11 @@
 Summary:	LDP Linux Programmer's Guide
-Summary(pl):	Podrêcznik Linuksowego Programisty LDP
+Summary(de):	LDP-Programmerierhandbuch
+Summary(fr):	Le guide du programmeur LDP
+Summary(pl):	Podrêcznik LDP Linuksowego Programisty
+Summary(tr):	LDP Programcý kýlavuzu
 Name:		lpg
 Version:	0.4
-Release:	1
+Release:	5
 License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
@@ -18,6 +21,18 @@ programs from other operating systems to Linux. Therefore, this guide
 must describe the system calls and the major kernel changes which have
 effects on older programs like serial I/O and networking.
 
+%description -l de
+Dies ist eine allgemeine Einführung in die Programmierung auf
+Linux-Systemen. Unter der Adresse http://www.tldp.org/ finden Sie
+weitere Infos zum Linux-Dokumentationsprojekt und eventuelle Updates
+zu dieser Version.
+
+%description -l fr
+Ceci est un guide générique à la programmation sur les systèmes Linux.
+Allez sur http://www.tldp.org/ pour plus d'informations sur le Projet
+de Documentation Linux (LDP) et les mises à jour éventuelles de cette
+version.
+
 %description -l pl
 Podrêcznik Linuksowego Programisty jest, jak wskazuje nazwa,
 podrêcznikiem programowania w Linuksie. Zosta³ napisany po to by pomóc
@@ -26,6 +41,11 @@ tak¿e przydatny przy przenoszeniu programów z innych systemów
 operacyjnych do Linuksa. Dlatego, ten podrêcznik opisuje wywo³ania
 systemowe i najwa¿niejsze zmiany w kernelu wp³ywaj±ce na starsze
 programy do obs³ugi ³±cza szeregowego i sieci.
+
+%description -l tr
+Linux sistemleri için programlama kýlavuzu. Linux Belgeleme Projesi
+(Linux Documentation Project) ile ilgili daha fazla bilgi ve yeni
+sürümler için http://www.tldp.org/ adresine bakýn.
 
 %prep
 %setup -q -n %{name}
