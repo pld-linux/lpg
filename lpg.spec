@@ -11,6 +11,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
 # Source0-md5:	d0127c91aeb39d4008e9abd8a518254c
 URL:		http://www.tldp.org/LDP/lpg/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -54,8 +55,7 @@ sürümler için http://www.tldp.org/ adresine bakýn.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
