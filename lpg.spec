@@ -1,8 +1,8 @@
 Summary:	LDP Linux Programmer's Guide
-Summary(de):	LDP-Programmerierhandbuch
-Summary(fr):	Le guide du programmeur LDP
-Summary(pl):	Podrêcznik LDP Linuksowego Programisty
-Summary(tr):	LDP Programcý kýlavuzu
+Summary(de.UTF-8):   LDP-Programmerierhandbuch
+Summary(fr.UTF-8):   Le guide du programmeur LDP
+Summary(pl.UTF-8):   PodrÄ™cznik LDP Linuksowego Programisty
+Summary(tr.UTF-8):   LDP ProgramcÄ± kÄ±lavuzu
 Name:		lpg
 Version:	0.4
 Release:	5
@@ -23,31 +23,31 @@ programs from other operating systems to Linux. Therefore, this guide
 must describe the system calls and the major kernel changes which have
 effects on older programs like serial I/O and networking.
 
-%description -l de
-Dies ist eine allgemeine Einführung in die Programmierung auf
+%description -l de.UTF-8
+Dies ist eine allgemeine EinfÃ¼hrung in die Programmierung auf
 Linux-Systemen. Unter der Adresse http://www.tldp.org/ finden Sie
 weitere Infos zum Linux-Dokumentationsprojekt und eventuelle Updates
 zu dieser Version.
 
-%description -l fr
-Ceci est un guide générique à la programmation sur les systèmes Linux.
+%description -l fr.UTF-8
+Ceci est un guide gÃ©nÃ©rique Ã  la programmation sur les systÃ¨mes Linux.
 Allez sur http://www.tldp.org/ pour plus d'informations sur le Projet
-de Documentation Linux (LDP) et les mises à jour éventuelles de cette
+de Documentation Linux (LDP) et les mises Ã  jour Ã©ventuelles de cette
 version.
 
-%description -l pl
-Podrêcznik Linuksowego Programisty jest, jak wskazuje nazwa,
-podrêcznikiem programowania w Linuksie. Zosta³ napisany po to by pomóc
-programistom zrozumieæ w³a¶ciwo¶ci Linuksa. Przez swoj± naturê jest
-tak¿e przydatny przy przenoszeniu programów z innych systemów
-operacyjnych do Linuksa. Dlatego, ten podrêcznik opisuje wywo³ania
-systemowe i najwa¿niejsze zmiany w kernelu wp³ywaj±ce na starsze
-programy do obs³ugi ³±cza szeregowego i sieci.
+%description -l pl.UTF-8
+PodrÄ™cznik Linuksowego Programisty jest, jak wskazuje nazwa,
+podrÄ™cznikiem programowania w Linuksie. ZostaÅ‚ napisany po to by pomÃ³c
+programistom zrozumieÄ‡ wÅ‚aÅ›ciwoÅ›ci Linuksa. Przez swojÄ… naturÄ™ jest
+takÅ¼e przydatny przy przenoszeniu programÃ³w z innych systemÃ³w
+operacyjnych do Linuksa. Dlatego, ten podrÄ™cznik opisuje wywoÅ‚ania
+systemowe i najwaÅ¼niejsze zmiany w kernelu wpÅ‚ywajÄ…ce na starsze
+programy do obsÅ‚ugi Å‚Ä…cza szeregowego i sieci.
 
-%description -l tr
-Linux sistemleri için programlama kýlavuzu. Linux Belgeleme Projesi
+%description -l tr.UTF-8
+Linux sistemleri iÃ§in programlama kÄ±lavuzu. Linux Belgeleme Projesi
 (Linux Documentation Project) ile ilgili daha fazla bilgi ve yeni
-sürümler için http://www.tldp.org/ adresine bakýn.
+sÃ¼rÃ¼mler iÃ§in http://www.tldp.org/ adresine bakÄ±n.
 
 %prep
 %setup -q -n %{name}
