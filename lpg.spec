@@ -1,8 +1,8 @@
 Summary:	LDP Linux Programmer's Guide
-Summary(de.UTF-8):   LDP-Programmerierhandbuch
-Summary(fr.UTF-8):   Le guide du programmeur LDP
-Summary(pl.UTF-8):   Podręcznik LDP Linuksowego Programisty
-Summary(tr.UTF-8):   LDP Programcı kılavuzu
+Summary(de.UTF-8):	LDP-Programmerierhandbuch
+Summary(fr.UTF-8):	Le guide du programmeur LDP
+Summary(pl.UTF-8):	Podręcznik LDP Linuksowego Programisty
+Summary(tr.UTF-8):	LDP Programcı kılavuzu
 Name:		lpg
 Version:	0.4
 Release:	5
